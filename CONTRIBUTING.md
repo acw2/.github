@@ -6,8 +6,8 @@
 
 次のIssueを受け付けています。
 
-- 書籍や内容に対する質問 => [こちらから質問できます](https://github.com/orgs/acw2/discussions/new?categories=q-a)
-- 内容のエラーや問題の報告 => [こちらからバグ報告できます](https://github.com/orgs/acw2/discussions/new?categories=bug-and-typo)
+- 書籍や内容に対する質問 => [こちらから質問できます](https://github.com/orgs/acw2/discussions/new?category=q-a)
+- 内容のエラーや問題の報告 => [こちらからバグ報告できます](https://github.com/orgs/acw2/discussions/new?category=bug-and-typo)
   - 誤字の修正
   - コードやスペルの修正
   - 別の説明方法の提案や修正
