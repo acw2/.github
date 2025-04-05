@@ -1,0 +1,37 @@
+name: Feature Request
+description: 機能追加や改善の提案を行うためのテンプレート
+title: "[機能提案] 簡潔なタイトルを記載してください"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **以下の項目を埋めて、提案内容を明確にしてください。**
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 詳細な説明
+      description: 提案する機能や改善の背景、目的、具体的な内容を記載してください。
+      placeholder: (例)現在、ユーザーがXを行うにはYの手順が必要ですが、これを簡略化するためにZを追加します。
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: 利点
+      description: この提案が実現された場合の利点や影響を記載してください。
+      placeholder: (例)ユーザーの操作が簡略化され、作業効率が向上します。
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 代替案
+      description: 他に検討した方法やアプローチがあれば記載してください。
+      placeholder: (例)別の方法としてAを検討しましたが、Bの理由で採用しませんでした。
+
+  - type: input
+    id: related_issues
+    attributes:
+      label: 関連するIssueやPR
+      description: (例)関連するIssueやPull Requestがあればリンクを記載してください。
+      placeholder: (例)#123, #456
